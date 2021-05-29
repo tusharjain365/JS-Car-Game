@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+}
+.hide{
+    display: none;
+}
+.car, .enemy{
+    height: 100px;
+    width: 60px;
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    background-image: url('maincar3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.enemy{
+    background-image: url('enemycar2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.gameArea{
+    background-color: rgba(17, 15, 15, 0.814);
+    width:400px;
+    height: 100vh;
+    margin:auto;
+    position:relative;
+    overflow-y: hidden;
+}
+.roadLine{
+    width:10px;
+    height:70px;
+    background-color: white;
+    margin-left:12.1rem;
+    position:absolute;
+}
+.scoreCard{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    width:200px ;
+    line-height:50px ;
+    text-align: center;
+    box-shadow: 3px 5px 5px black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.startGame{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    background-color: cornflowerblue;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    box-shadow: 3px 5px 10px black;
+    border-radius: 10px;
+    cursor:pointer;
+    z-index: 1;
+}
